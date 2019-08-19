@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Test"
+        android:textSize="@dimen/text_size"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light value: "
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/lightValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delta time: "
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/delta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/printData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print data"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size"/>
+
+        <CheckBox
+            android:id="@+id/printTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print time"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size" />
+
+        <Spinner
+            android:id="@+id/interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start record data"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size"
+        android:onClick="buttonRecordData" />
+</LinearLayout>

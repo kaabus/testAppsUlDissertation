@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Accelerometer</string>
+    <string name="action_settings">Settings</string>
+
+  <string-array name="intervals">
+    <item>8</item>
+    <item>16</item>
+    <item>32</item>
+    <item>64</item>
+  </string-array>
+
+</resources>

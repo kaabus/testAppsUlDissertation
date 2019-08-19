@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/awoken-well/cordova-plugin-proximity.git",
+  "_id": "cordova-plugin-proximity@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-proximity",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/awoken-well/cordova-plugin-proximity.git",
+    "rawSpec": "https://github.com/awoken-well/cordova-plugin-proximity.git",
+    "saveSpec": "git+https://github.com/awoken-well/cordova-plugin-proximity.git",
+    "fetchSpec": "https://github.com/awoken-well/cordova-plugin-proximity.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/awoken-well/cordova-plugin-proximity.git#7eb8f7e6949fc52cfd95a1fe59b5a0de8a11f8e4",
+  "_spec": "https://github.com/awoken-well/cordova-plugin-proximity.git",
+  "_where": "D:\\Personal\\Uni\\Dissertation\\TestApplications\\Cordova_test\\proximity",
+  "author": {
+    "name": "Olaf T.A. Janssen",
+    "email": "o.t.a.janssen@gmail.com",
+    "url": "http://nullelement.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/awoken-well/cordova-plugin-proximity/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This plugin provides access to the device's (IR) proximity sensor. This sensor is typically used in applications to prevent touch events on the screen when the device is held close to one's face.",
+  "directories": {
+    "doc": "doc"
+  },
+  "homepage": "https://github.com/awoken-well/cordova-plugin-proximity#readme",
+  "keywords": [
+    "cordova",
+    "proximity",
+    "plugin",
+    "android",
+    "ios"
+  ],
+  "license": "ISC",
+  "main": "www/proximity.js",
+  "name": "cordova-plugin-proximity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awoken-well/cordova-plugin-proximity.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

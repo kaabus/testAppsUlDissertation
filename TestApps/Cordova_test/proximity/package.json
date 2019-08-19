@@ -1,0 +1,19 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "helloworld",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "org.awokenwell.proximity": {},
+      "cordova-plugin-device-orientation": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^7.1.4",
+    "cordova-plugin-device-orientation": "^2.0.1",
+    "cordova-plugin-proximity": "git+https://github.com/awoken-well/cordova-plugin-proximity.git"
+  }
+}
